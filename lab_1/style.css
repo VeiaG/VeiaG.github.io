@@ -126,3 +126,4 @@ footer {
     transition: color .2s;
     transition: background .2s;
   }
+  html{scroll-behavior:smooth}
