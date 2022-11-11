@@ -15,7 +15,6 @@
         text-decoration: none;
         color:#111111;
         text-align: center;
-        
     }
     #logo:hover{
         transform: scale(1.05);
@@ -160,8 +159,7 @@
     }
     #fbl a{
         margin-top:25px;
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
     .first{
         background: #111111;
