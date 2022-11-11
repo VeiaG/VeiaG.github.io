@@ -1,0 +1,129 @@
+body {
+    background-color: #ffffff;
+    color: #414141;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+table{
+    padding-top: 50px;
+}
+td{
+    border: 5px solid #757575;
+    padding:15px;
+    width:20%;
+    height:50%;
+    background-color: #ffffff;
+    transition: transform .2s;
+}
+td h1{
+    margin:0px;
+    font-size:200px;
+}
+.imgtable{
+    padding:0px;
+}
+td img{
+    height:750px;
+    width: 450px;
+}
+
+td:hover {
+    transform: scale(0.95);
+    z-index: 0;
+  }
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+.farea {
+    padding: 15px;
+}
+.perehod{ 
+    width:100%;
+    text-align:center;
+    margin: 25px 0 15px;
+}
+.perehod h1{
+    margin:0;
+    font-size: 100px;
+    font-weight: lighter;
+}
+.perehod p{
+    font-size:30px;
+    margin:0;
+}
+.zavd{
+    display:inline-flex;
+    width:100%;
+}
+.zavd1 {
+    width: 65%;
+    margin: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.zavd1 h2 {
+    font-size:30px;
+    font-weight: bold;
+    margin:0;
+}
+.zavdd1{
+    border: 5px solid #757575;
+    padding: 15px;
+    width: 100%;
+}
+.zavd2{
+    width: 25%;
+    margin: 2.5%;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+.zavd figcaption{
+    display: flex;
+    justify-content: right;
+}
+.zavd2 img{
+    border-radius: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.zavd3{
+    border: 5px solid #757575;
+    padding: 15px;
+    width: 47.5%;
+    margin: 1.25%;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2; 
+    display:flex;
+    justify-content: center;
+  }
+#navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: color .2s;
+    transition: background .2s;
+  }
+#navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: color .2s;
+    transition: background .2s;
+  }
+  html{scroll-behavior:smooth}
