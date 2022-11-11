@@ -31,12 +31,13 @@
     z-index: 1;
     padding:12px 0 1em;
     background: rgba(249, 249, 249, 0.5);
-    backdrop-filter: blur(25px);
+    backdrop-filter: saturate(200%) blur(25px);
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
 }
+
 #links{  
     float:right;
     padding: 5px 0px 4px;
@@ -85,6 +86,12 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+.toggler{
+    display:none;
+}
+.hamburger{
+    display:none;
 }
 #fbl a{
     margin-top:25px;

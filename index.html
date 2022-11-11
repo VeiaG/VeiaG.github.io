@@ -4,8 +4,10 @@
     <title>Паламар Роман</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="default.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="pstyle.css">
+    <link rel="stylesheet" href="tstyle.css">
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="flickity.css" media="screen">
@@ -20,6 +22,8 @@
     <div id="navbar">
         <div id="navmain">
             <div id="logo"><a href="#fbanner">Паламар Роман</a></div>
+            <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
             <div id="links">
                 <a href="#sbanner">Про мене</a>
                 <a href="#rb">Мої роботи</a>
@@ -42,7 +46,11 @@
     </div>
     <div class="second">
         <div id="sbanner">
-           <img src="images/daitake.jpg">
+            <picture>
+                <source srcset="images/me-cropped.jpg" media="(max-width: 1322px)">
+                <img src="images/daitake.jpg">
+            </picture>
+           
            <div id="sbr">
                 <h2>Про мене</h2>
                 <div id="line"></div>
