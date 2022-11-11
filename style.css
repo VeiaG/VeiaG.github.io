@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1322px) {
 #logo{
     font-size: 32px;
     display:inline-block;
@@ -324,4 +325,11 @@ input{
 }
 #fbanner{
     scroll-margin-top: 8em;
+}
+.ftelement p{
+    transition: transform .2s;
+}
+.ftelement p:hover{
+    transform: scale(1.05);
+}
 }
