@@ -32,8 +32,9 @@
     #navbar{
         z-index: 1;
         padding:12px 0 1em;
-        background: rgba(249, 249, 249, 0.75);
-        backdrop-filter: blur(25px);
+        background: rgba(249, 249, 249, 0.55);
+        backdrop-filter: saturate(200%) blur(25px);
+        -webkit-backdrop-filter: saturate(200%) blur(25px);
         overflow: hidden;
         position: fixed;
         top: 0;
