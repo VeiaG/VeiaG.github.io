@@ -98,7 +98,7 @@
         float:right;
     }
     .first{
-        background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,1) 50%, rgba(0,0,0,0) 50%);
+        background: #111111;
     }
     /* 2 */
 }
