@@ -3,10 +3,12 @@
     #logo{
         font-size: 80px;
         display:flex;
+        justify-content: center;
+        align-items: center;
         transition: transform .2s;
     }
     #navmain{
-        width: 600px;
+        width: 1312px;
         margin:auto;
     }
     #logo a{
